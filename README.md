@@ -61,7 +61,7 @@ Example with Lazy
 
 ## Usage
 
-Use command `Gen` to generate text based on predefined and customizable prompts.
+Use command `llamagen` to generate text based on predefined and customizable prompts.
 
 Example key maps:
 
