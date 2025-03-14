@@ -3,7 +3,7 @@ Use Llama.cpp with Neovim
 
 <div align="center">
 
-![Local LLMs in Neovim: llamagen.nvim](/genlms.png)
+![Local LLMs in Neovim: llamagen.nvim](/llamagen.png)
 
 </div>
 
