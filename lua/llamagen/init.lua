@@ -609,7 +609,7 @@ local function select_prompt(cb)
     end)
 end
 
-api.nvim_create_user_command("llamagen", function(arg)
+api.nvim_create_user_command("Llamagen", function(arg)
     local mode
     if arg.range == 0 then
         mode = "n"
@@ -650,7 +650,7 @@ end, {
 
 function Process_response(str, json_response)
     if #str == 0 then return end
-    
+
     if json_response then
         if str:sub(1, 6) == "data: " then
             str = str:sub(7)
@@ -679,7 +679,7 @@ function Process_response(str, json_response)
                         vim.cmd("startinsert")
                     end
                 end
-                
+
                 globals.result_string = globals.result_string .. text
                 write_to_buffer(vim.split(text, "\n"))
             end
